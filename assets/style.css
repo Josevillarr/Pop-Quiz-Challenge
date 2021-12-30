@@ -1,0 +1,9 @@
+body {
+    background-image: linear-gradient(orange,blue);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    height: 100%;
+}
+.gradient-one {
+    background-color: linear-gradient(orange, blue);
+}
