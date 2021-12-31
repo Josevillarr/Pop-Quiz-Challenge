@@ -1,9 +1,12 @@
-body {
-    background-image: linear-gradient(orange,blue);
-    background-repeat: no-repeat;
-    background-position: fixed;
-    height: 100%;
+.hide {
+    display: none;
 }
-.gradient-one {
-    background-color: linear-gradient(orange, blue);
+
+
+
+.qbox {
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    position: absolute;
 }
