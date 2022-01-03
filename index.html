@@ -4,15 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./assets/style.css">
+    <link href="./assets/style.css" rel="stylesheet">
     <title>Pop Quiz!</title>
 </head>
-<body class="gradient-one">
-    <header>
-        <div>
+<body class="container">
+    <header class="header">
+        <div class="head-move">
             <h1>Pop Quiz for Dummies</h1>
         </div>
     </header>
+
+   
+    <div id="start-box" class="start-boxstyle">
+        <h2>Click the button to begin</h2>
+        <p>Answer the questions correctly in the fastest amount of time to earn a high score!</p>
+        <button id="start-button" class="btn">Start Quiz</button>
+    </div>
+
+
+    <div id="timer-box" class="hide">
+        <h2>Time Remaining: <span id="time"></span></h2>
+    </div>
+    
+    <div id="question-box" class="hide qbox">
+
+        <p id="questions">Questions go here</p>
+
+    </div>
+
     <script src="./assets/script.js"></script>
 </body>
 </html>
